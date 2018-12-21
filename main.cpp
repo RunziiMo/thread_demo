@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
   auto thread2 = std::thread([]() {
     int count = 0;
     while (count++ <= 10) {
-      // todo(tingting) you can add XP::serialport_write and XP::serialport_read function here
+      // todo(jingjing) you can add XP::serialport_write and XP::serialport_read function here
       usleep(1000);
       std::cout << "not join while " << count << std::endl;
     }
